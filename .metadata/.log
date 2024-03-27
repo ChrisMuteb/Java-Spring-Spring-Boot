@@ -1,0 +1,16 @@
+!SESSION 2024-03-27 10:16:19.882 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.10
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=en_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/c.kayomb/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.jee.product -keyring /Users/c.kayomb/.eclipse_keyring
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-27 10:16:21.074
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-27 10:16:21.243
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-27 10:16:54.939
+!MESSAGE Logback config file: /Users/c.kayomb/Library/CloudStorage/OneDrive-ONEPOINT/Documents/onepoint/Udemy/Total - Spring Boot/Spring & Spring Boot/learn-spring-framework/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.0.20240217-1525.xml
