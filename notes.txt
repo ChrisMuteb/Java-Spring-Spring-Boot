@@ -1,0 +1,15 @@
+public User findOne(int id) {
+	Predicate<? super User> predicate = user -> user.getId().equals(id);
+	return users.stream().filter(predicate).findFirst().get();
+}
+
+Spring Security
+
+Filter Chains
+1) All requests should be authenticated
+2) If a request is not authenticated, a web page is shown
+3) CSRF -> POST, PUT
+
+Configuration
+
+Bean FilterChain
